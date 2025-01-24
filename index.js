@@ -6,7 +6,7 @@ class RunCommandExtension extends Extension {
 	constructor() {
 		super();
 		this.name = 'Commands';
-		this.platforms = [PLATFORMS.WINDOWS];
+		this.platforms = [PLATFORMS.LINUX];
 		this.inputs = [
 			{
 				label: 'Run Command',
